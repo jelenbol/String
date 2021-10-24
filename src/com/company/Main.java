@@ -25,7 +25,7 @@ public class Main {
 
         //      if (BANKiBAN.contains)
 
-        String BANKiBAN
+      //  String BANKiBAN
         //    sout(BANKiBAN.substring(0,8))
 
 
