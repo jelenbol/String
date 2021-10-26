@@ -9,6 +9,7 @@ public class First {
             endsWithE(values);
             lenghtIsFive(values);
             withCharacterE(values);
+            withSubStringTe(values);
         }
     }
 
@@ -67,7 +68,7 @@ public class First {
             if (values[i].contains("te"))
                 System.out.println(+te + "contains 'te'");
 
-        //it does not work this way
+        //it does not work properly
 
 
     }
