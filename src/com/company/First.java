@@ -66,7 +66,7 @@ public class First {
 
         for (int i = 0; i < values.length; i++)
             if (values[i].contains("te"))
-                System.out.println(+te + "contains 'te'");
+                System.out.println("Found");
 
         //it does not work properly
 
