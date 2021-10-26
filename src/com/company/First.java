@@ -13,7 +13,6 @@ public class First {
         }
     }
 
-
     public static void startsWithC(String[] values) {
 
         int letter = 0;
@@ -21,10 +20,9 @@ public class First {
         for (int i = 0; i < values.length; i++)
             if (values[i].charAt(0) == 'C')
                 letter++;
-        System.out.printf(" %s words start with C;", letter);
+        System.out.println(+letter + "words start with letter 'C';");
 
     }
-
 
     public static void endsWithE(String[] values) {
 
@@ -36,7 +34,6 @@ public class First {
 
         System.out.println(+letter + " word ends with letter 'e';");
     }
-
 
     public static void lenghtIsFive(String[] values) {
 
