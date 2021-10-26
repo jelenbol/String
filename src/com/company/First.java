@@ -6,7 +6,7 @@ public class First {
         String[] values = {"Computer", "Plate", "Chair", "Girl", "Boy", "Cat", "Dog", "Shirt", "Determination"};
         {
             startsWithC(values);
-            endsWithF(values);
+            endsWithE(values);
         }
     }
 
@@ -22,9 +22,19 @@ public class First {
     }
 
 
-    public static void endsWithF(String[] values) {
+    public static void endsWithE(String[] values) {
+
+        int letter = 0;
+
+        for (int i = 0; i < values.length; i++) {
+            if (values[i].endsWith("e")) {
+                letter++;
+
+                System.out.println(+letter + " word ends with e");
+            }
 
 
+        }
     }
 }
 
